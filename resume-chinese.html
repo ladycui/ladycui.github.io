@@ -1248,9 +1248,16 @@ pre[class*="language-"] {
   <style>.markdown-body{}pre.front-matter{display:none!important;}</style>
 </head>
 <body>
-  <article class="markdown-body"><p></p><center>
+  <article class="markdown-body" style="position: relative;">
+    <a href="崔艳娜_AI全栈工程师.pdf" download="崔艳娜_AI全栈工程师.pdf" style="position: absolute; top: 10px; right: 10px; text-decoration: none; border: 1px solid #ccc; padding: 5px 10px; border-radius: 4px; font-size: 14px; background: #f8f9fa;">下载 PDF</a>
+<p></p><center>
      <h1>崔艳娜</h1>
      <div>
+         <span>
+             <img width="18px" src="assets/project-diagram-solid.svg">
+             AI全栈开发工程师
+         </span>
+         ·
          <span>
              <img width="18px" src="assets/phone-solid.svg">
              158-0193-5364
@@ -1265,95 +1272,116 @@ pre[class*="language-"] {
              <img width="18px" src="assets/github-brands.svg">
              <a href="https://github.com/ladycui">ladycui</a>
          </span>
-         ·
-         <span>
-             <img width="18px" src="assets/project-diagram-solid.svg">
-java开发工程师
-         </span>
  </div></center><p></p>
 
 <hr>
 <h2 class="atx" id="摘要">摘要</h2>
 <ul>
-<li><p>本硕211、计算机专业、数模竞赛、6年工作经验(5年大厂+1年陆金所实习)、熟悉常用数据结构和算法；</p>
-</li>
-<li><p>主要技术栈：java8 | Redis| MySQL | spring cloud | kafka | Kubernetes</p>
-</li>
-<li><p>3个项目的核心开发，参与项目设计，追求bug free，持续学习、团队协作，擅长trouble-shooting</p>
-</li>
-<li><p>英语流利沟通</p>
+<li><strong>9年研发经验（5年大厂/金融+3年独立创业/AI落地+1年陆金所实习）</strong>：本硕 211 计算机专业，具备从0到1主导产品架构设计、全栈开发、测试及部署运维的完整闭环能力。</li>
+<li><strong>复合型技术栈与AI前沿实践</strong>：Java 高并发与微服务架构，近年借助 vibe coding 拓展 Vue3 全栈及 Electron 客户端开发。熟练掌握 LLM 应用开发，具备 Agent 架构、Function Calling、RAG链路设计及 Prompt 调优实战经验。</li>
+<li><strong>复杂系统重构与高并发经验</strong>：在爱立信、平安科技等平台积累了丰富的分布式系统治理、线上疑难杂症分析（Trouble-shooting）与系统高并发重构经验，追求 bug free。</li>
+<li><strong>综合素质</strong>：拥有极强的 Owner 精神与自我驱动力，深度利用 AI 辅助编程大幅提升研发效能。具备英语流利沟通能力，热爱技术钻研与团队赋能。</li>
+</ul>
+
+<h2 class="atx" id="教育经历"><img height="20px" width="30px" src="assets/graduation-cap-solid.svg"> 教育经历</h2>
+<ul>
+<li><strong>上海大学</strong> | 硕士，计算机科学与技术 (国家研究生数学建模竞赛三等奖 | 2篇EI | 1项专利)</li>
+<li><strong>西安电子科技大学</strong> | 本科，信息管理与信息系统</li>
+</ul>
+
+<h2 class="atx" id="工作与项目经历"><img height="20px" width="30px" src="assets/briefcase-solid.svg"> 工作与项目经历</h2>
+
+<h3 id="独立开发者"><strong>独立开发者 / 软件开发创业 (2023.06 - 至今)</strong></h3>
+<p>近3年作为Freelancer/创业者，提供软件开发与AI智能化解决方案，独立负责多个项目的架构选型、全生命周期开发、测试及运维发布。</p>
+
+<p><strong>1. 企业培训方案生成平台 (MVP)</strong></p>
+<ul>
+<li>合作方：北京硕领智能科技有限公司</li>
+<li>技术栈：Spring Boot, SpringAI, Vue 3, MinIO, PDFBox/POI, Docker Compose</li>
+<li>项目描述：针对B端企业培训业务中讲师/课程匹配效率低、手工拼装方案耗时长的问题，开发了一套端到端的智能解决方案生成系统。通过集成 DeepSeek，实现了客户需求自然语言解析、多模态文档结构化信息抽取及个性化方案的自动化生成，将运营人员的方案生成时间由数小时压缩至几分钟。</li>
+<li>核心贡献：
+<ul>
+<li>设计非结构化文档（讲师简历/课程大纲）自动解析入库链路 (文本清洗去噪 -&gt; 长度硬截断截流 -&gt; LLM 结构化抽取)，规避长文档Token超限，实现结构化字段自动抽取。</li>
+<li>设计和调优多个业务Prompt（需求理解、推荐理由生成、摘要总结、段落过渡语生成等），提升生成方案的连贯性和可读性，替代传统模板拼接方式。</li>
+<li>设计意图识别与槽位抽取模块，基于 Function Calling 将自然语言转为结构化查询条件，并针对标签字段基数差异做归一化处理。</li>
+<li>建立四层评测体系（槽位抽取/归一化/检索/生成）及标注评测集，量化跟踪抽取准确率、幻觉率等核心指标，支撑迭代优化与回归验证。</li>
+</ul>
 </li>
 </ul>
-<h2 class="atx" id="lessimg-srcdouble-quoteassetsgraduation-cap-solidsvgdouble-quote-widthdouble-quote30pxdouble-quote-heightdouble-quote20pxdouble-quotegreater-教育经历"><img height="20px" width="30px" src="assets/graduation-cap-solid.svg"> 教育经历</h2>
+
+<p><strong>2. 多智能体AI 短片创作工作台 (Desktop App)</strong></p>
 <ul>
-<li>学士，西安电子科技大学，信息管理与信息系统</li>
-<li>硕士，上海大学，计算机科学与技术<ul>
-<li>国家研究生数学建模竞赛三等奖 | 2篇EI | 1项专利</li>
+<li>合作方：某自媒体博主</li>
+<li>技术栈：Electron, Node.js, Open Code</li>
+<li>项目描述：“剧本构思-分镜拆解-多模态生成”无缝串联的工程化桌面工作台，参考 Cursor 交互流程设计，创作者可在一个应用内解决AI短片全流程操作。</li>
+<li>核心贡献：
+<ul>
+<li>从零构建 Electron 桌面级 AI 短视频创作工具，实现"自然语言输入 -&gt; 自动分镜 -&gt; 多模态并发生成"的工业化创作管线。</li>
+<li>将 OpenCode 作为 sidecar 融合到架构。将 Agent 引擎（Node.js 后台进程）与 Electron 主进程解耦，避免重推理、大文件下载阻塞 UI 渲染，高并发调用下保持 100% 界面流畅度。</li>
+<li>采用"制片人智能体(Orchestrator) + 领域专家智能体"的编排模式多智能体系统架构；基于任务复杂度而非模块重要性划分智能体与工具边界，将配音、配乐等低歧义度环节封装为可复用工具而非独立智能体，减少约 40% 的智能体间握手环节，为高价值环节(如多模态融合的视频生成)保留自主判断能力。</li>
 </ul>
 </li>
 </ul>
-<h2 class="atx" id="lessimg-srcdouble-quoteassetsbriefcase-solidsvgdouble-quote-widthdouble-quote30pxdouble-quote-heightdouble-quote20pxdouble-quotegreater-工作经历"><img height="20px" width="30px" src="assets/briefcase-solid.svg"> 工作经历</h2>
+
+<p><strong>3. 电商分销管理平台 (一期)</strong></p>
 <ul>
-<li><p><strong>爱立信，软件工程师，20.6~23.3</strong></p>
+<li>合作方：杭州白惜品牌管理有限公司</li>
+<li>技术栈：spring boot, mysql, react, AI开发工具 (Claude Code, Antigravity)</li>
+<li>项目描述：一套全链路分销管理系统，全面串联“客户-商品-订单-资金-仓储”业务闭环。系统6月份已正式上线，目前已稳定运行2个月，未出现核心链路的重大事故。</li>
+<li>核心贡献：
 <ul>
-<li><p><strong><strong>EDA</strong></strong></p>
+<li>从零构建企业级 B2B 分销管理系统，涵盖 CRM、订单流转、资金账本、消息中心及审批流。独立负责该系统全生命周期，包括架构选型、前后端开发、测试及运维发布。</li>
+<li>深度结合 AI 辅助开发工具（Claude Code, Antigravity）大幅提升开发效率。</li>
+<li>定制复杂需求：订单、商品、客户、资金的核心操作均需走审批流程，接入飞书消息通知；支持客户多层级定价策略；资金支持2类钱包(现金+返利)。</li>
+<li>自研动态审批流引擎：针对企业多变内控需求，基于策略模式实现了一套高度可配置的审批模板与流转引擎，支持不同业务节点（改价、退款、发货）灵活接入。</li>
+<li>集成招行、聚水潭、阿里云OSS、飞书等第三方服务。</li>
+</ul>
+</li>
+</ul>
+
+<h3 id="爱立信"><strong>爱立信 | 软件工程师 (2020.06 - 2023.03)</strong></h3>
+<p><strong>EDA</strong></p>
 <ul>
 <li>参与 batch handler、 asynchronous module 等高并发模块的开发</li>
 <li>负责旧模块的高并发重构；</li>
-<li>线上问题分析与解决， 在业务、性能、网络、数据库等方面具有丰富经验；参与7*12生产系统值班；</li>
+<li>线上问题分析与解决， 在业务、性能、网络、数据库等方面具有丰富经验；参与7*12生产系统值班</li>
 <li>上海团队核心 code reviewer 之一; 新成员代码教练</li>
+<li>技术栈：Cassandra, Kubernetes, Kafka, ELK</li>
 </ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>技术栈</strong>：Cassandra, Kubernetes, Kafka, ELK</p>
-</li>
-</ul>
-</li>
-<li><p><strong>平安科技，java 高级开发工程师，18.7~20.5</strong></p>
 
-
+<h3 id="平安科技"><strong>平安科技 | java 高级开发工程师 (2018.07 - 2020.05)</strong></h3>
+<p><strong>1. 平安云融合cdn平台</strong></p>
 <ul>
-<li><p><b>平安云融合cdn平台</b></p>
-<ul>
-<li>参与多家第三方供应商调研，并设计产品 API 与数据库 schema</li>
+<li>参与多家第三方供应商调研，并 design 产品 API 与数据库 schema</li>
 <li>项目核心开发之一，负责调度模块开发、监控模块的开发</li>
 <li>负责追踪生产问题；</li>
 <li>负责项目早期大数据日志平台的构建(hive、zeppeline)</li>
 <li>code review</li>
+<li>技术栈： Spring Cloud Netflix、RabbitMQ、Redis、MySQL</li>
 </ul>
-<p>&nbsp;&nbsp;&nbsp;<strong>技术栈</strong>： Spring Cloud Netflix、RabbitMQ、Redis、MySQL</p>
-</li>
-<li><p><b>消息通</b><br></p>
+
+<p><strong>2. 消息通</strong></p>
 <ul>
-<li><p>参与产品从0到1全流程构建，负责架构设计和调整、核心组件 receiver 组件开发</p>
-</li>
-<li><p>code review</p>
-</li>
-<li><p>高性能重构</p>
-<p><strong>技术栈</strong>：Spring boot、Mybatis、MySQL、RocketMQ、Redis<br></p>
-</li>
+<li>参与产品从0到1全流程构建，负责架构设计和调整、核心组件 receiver 组件开发</li>
+<li>code review</li>
+<li>高性能重构</li>
+<li>技术栈：Spring boot、Mybatis、MySQL、RocketMQ、Redis</li>
 </ul>
-</li>
-<li><p><b>基金交易订单组件</b><br></p>
+
+<p><strong>3. 基金交易订单组件</strong></p>
 <ul>
-<li><p>参与基金反向申购、批量赎回等日常开发</p>
-</li>
-<li><p>参与年会积分红包在订单组的高并发实现</p>
-<p><strong>技术栈</strong>：SSM、Oracle、Redis、Rocket</p>
-</li>
+<li>参与基金反向申购、批量赎回等日常开发</li>
+<li>参与年会积分红包在订单组的高并发实现</li>
+<li>技术栈：SSM、Oracle、Redis、Rocket</li>
 </ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 class="atx" id="lessimg-srcdouble-quoteassetsinfo-circle-solidsvgdouble-quote-widthdouble-quote30pxdouble-quote-heightdouble-quote20pxdouble-quotegreater-个人关键词"><img height="20px" width="30px" src="assets/info-circle-solid.svg"> 个人关键词</h2>
+
+<h2 class="atx" id="个人关键词"><img height="20px" width="30px" src="assets/info-circle-solid.svg"> 个人关键词</h2>
 <ul>
-<li><p>乒乓球、爬山、 kindle、西部电影、数独；</p>
-</li>
-<li><p>乐于分享，团队协作；快速学习，持续学习；不惧压力，直面挑战</p>
-</li>
-<li><p>擅于使用ChatGPT提供工作效率和团队产出</p>
+<li>乒乓球、kindle、西部电影、数独；</li>
+<li>乐于分享，团队协作；快速学习，持续学习；不惧压力，直面挑战</li>
+<li>owner精神</li>
+</ul>
 <p><a href="./index.html">English version</a></p>
-</li>
-</ul>
 </article>
 </body>
 </html>
